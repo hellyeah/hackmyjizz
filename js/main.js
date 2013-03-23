@@ -93,7 +93,7 @@ $.extend(TRIP, {
 
 		  		//Compiling html with handlebars.js
 		  		var html = deal_template({
-				destination: TRIP.locationString(flight.get("destLocation")), 
+				destination: this.get("Accomplishments"), 
 				bg: this.get("imgUrl"),
 				trip_length: this.get("Accomplishments"),
 				//leaving: startDate.calendar(),
