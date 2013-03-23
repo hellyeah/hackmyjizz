@@ -4,8 +4,8 @@ $('.deals-container').isotope({
   // options
   	itemSelector : '.deal-box',
   	layoutMode : 'masonry',
-  	masonry : { 
-   		columnWidth : 320 
+  	masonry : {
+   		columnWidth : 320
   	}
 });
 
@@ -19,7 +19,7 @@ var deal_template_source = $('#deal-template').html(),
 var TRIP = TRIP || {};
 
 $.extend(TRIP, {
-	
+
 	item_count: 0,
 
 	getDeals: function() {
@@ -38,7 +38,7 @@ $.extend(TRIP, {
 		  success: function(results) {
 		  	$.each(results, function() {
 		  	var html = deal_template({
-					name: this.get("Name"), 
+					name: this.get("Name"),
 					bg: this.get("imgUrl"),
 					description: this.get("Accomplishments"),
 					iq: this.get("IQ"),
@@ -53,7 +53,7 @@ $.extend(TRIP, {
 				 	$('.deal-box.large').removeClass('large');
 				 	$(this).addClass('large');
 				 	$('.deals-container').isotope('reLayout');
-			 	});	
+			 	});
 			}
 		  	});
 		  },
@@ -61,11 +61,11 @@ $.extend(TRIP, {
 		    alert("Error: " + error.code + " " + error.message);
 		  }
 		});
-	},	
+	},
 });
  TRIP.getDeals();
 
 
 
 
-});	
+});
