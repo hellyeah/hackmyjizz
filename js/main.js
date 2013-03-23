@@ -11,9 +11,9 @@ $('.deals-container').isotope({
 
 Parse.initialize("78XHwuLO8Zzh69s6LJjLPMrysLrJrlMIXhZFrWA1", "yI38JPljByHBEVZcE4B5n51gpQ5Fh9JrSoQMUu78");
 var deal_template_source = $('#deal-template').html(),
-	dropdown_template_source = $('#dropdown-item-template').html(),
+	//dropdown_template_source = $('#dropdown-item-template').html(),
 	deal_template = Handlebars.compile(deal_template_source),
-	dropdown_item_template = Handlebars.compile(dropdown_template_source),
+	//dropdown_item_template = Handlebars.compile(dropdown_template_source),
 	imgUrl = "http://www.photo-dictionary.com/photofiles/list/8/667airplane.jpg";
 
 var TRIP = TRIP || {};
@@ -88,8 +88,10 @@ $.extend(TRIP, {
 		  success: function(results) {
 		  	$.each(results, function() {
 		  		console.log(this);
-		  		console.log(this.get("Accomplishments"));
-		  		//TRIP.appendDeal(this);
+		  		console.log(this.get("Accomplishments"));					
+
+				console.log(this.get("price")+this.get("imgUrl")+this.get("Accomplishments"));
+
 
 		  		//Compiling html with handlebars.js
 		  		console.log("handlebars");

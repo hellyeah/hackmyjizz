@@ -18,12 +18,12 @@ body * {
 .header-container {
 
     background: rgb(255,255,255);
-    background-image: url(../img/bigbaby.jpg); /* fallback */
-    background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 49%), url(../img/bigbaby.jpg); /* Chrome 10+, Saf5.1+ */
-    background-image: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 49%), url(../img/bigbaby.jpg); /* FF3.6+ */
-    background-image: -ms-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 49%),  url(../img/bigbaby.jpg); /* IE10 */
-    background-image: -o-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 49%), url(../img/bigbaby.jpg);
-    background-image: linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 49%) ,url(../img/bigbaby.jpg);
+    background-image: url(../img/spermly.jpg); /* fallback */
+    background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 49%), url(../img/spermly.jpg); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 49%), url(../img/spermly.jpg); /* FF3.6+ */
+    background-image: -ms-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 49%),  url(../img/spermly.jpg); /* IE10 */
+    background-image: -o-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 49%), url(../img/spermly.jpg);
+    background-image: linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 49%) ,url(../img/spermly.jpg);
 
     background-size:cover;
     background-position:center center;
