@@ -470,6 +470,6 @@ body * {
     display:block;
 }
 
-.apply {
-
+.apply-fly-out {
+  display: none;
 }
