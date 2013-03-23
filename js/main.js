@@ -96,7 +96,7 @@ $.extend(TRIP, {
 		  		//Compiling html with handlebars.js
 		  		console.log("handlebars");
 		  	var html = deal_template({
-					destination: this.get("Accomplishments"), 
+					name: this.get("Name"), 
 					bg: this.get("imgUrl"),
 					trip_length: this.get("Accomplishments"),
 					//leaving: startDate.calendar(),
