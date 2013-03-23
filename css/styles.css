@@ -464,14 +464,3 @@ body * {
 .large .brick-footer {
     display:block;
 }
-
-.price {
-    display:block;
-    position:absolute;
-    top:0;
-    right:0;
-    padding:7px 10px;
-    color:#fff;
-    font-size:16px;
-    border-radius:0 0px 0px;
-}
