@@ -277,6 +277,10 @@ body * {
     background-color: #eee;
 }
 
+.extended-info {
+  font-size: 16px;
+}
+
 .large .bottom-details {
     display:block;
 }
