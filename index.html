@@ -30,6 +30,7 @@
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=352591654845196";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="header-container">
     <div class="header">
       <div class="header_box">
@@ -54,7 +55,7 @@
                   </div>
                 </div>
                 <div class="price">
-                  ${{price}}
+                  IQ: {{iq}}
                 </div>
                 <div class="bottom-details">
                   <div class="booknow buybutton">
@@ -65,7 +66,8 @@
                   <div style="clear:both"></div>
                   <div class="sexy-description">
                     <span class="sexy-price">${{total_price}}</span>
-                    <div class="righter">Make your deposit</div>
+
+                    <div class="righter stripe-button">Make your deposit</button>
                   </div>
                 </div>
             </div>

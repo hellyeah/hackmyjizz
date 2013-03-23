@@ -98,7 +98,8 @@ $.extend(TRIP, {
 		  	var html = deal_template({
 					name: this.get("Name"), 
 					bg: this.get("imgUrl"),
-					trip_length: this.get("Accomplishments"),
+					description: this.get("Accomplishments"),
+					iq: this.get("IQ"),
 					//leaving: startDate.calendar(),
 					price: this.get("price"),
 					//old_price: this.get("price"),
