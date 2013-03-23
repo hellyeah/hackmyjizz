@@ -92,17 +92,18 @@ $.extend(TRIP, {
 		  		//TRIP.appendDeal(this);
 
 		  		//Compiling html with handlebars.js
-		  		var html = deal_template({
-				destination: this.get("Accomplishments"), 
-				bg: this.get("imgUrl"),
-				trip_length: this.get("Accomplishments"),
-				//leaving: startDate.calendar(),
-				price: this.get("price"),
-				//old_price: this.get("price"),
-				//hotel_price: Math.round(hotelPrice),
-				total_price: this.get("price"),
-				buynowhref: this.get("imgUrl"),
-				//booknowhref: flight.get("hotel_link")
+		  		console.log("handlebars");
+		  	var html = deal_template({
+					destination: this.get("Accomplishments"), 
+					bg: this.get("imgUrl"),
+					trip_length: this.get("Accomplishments"),
+					//leaving: startDate.calendar(),
+					price: this.get("price"),
+					//old_price: this.get("price"),
+					//hotel_price: Math.round(hotelPrice),
+					total_price: this.get("price"),
+					buynowhref: this.get("imgUrl"),
+					//booknowhref: flight.get("hotel_link")
 			})
 			$('.deal-box').first().addClass('large');
 			$('.deals-container').isotope('insert', $(html));
