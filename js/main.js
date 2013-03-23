@@ -66,6 +66,9 @@ $.extend(TRIP, {
  TRIP.getDeals();
 
 
-
+$(".trigger").click(function(){
+  console.log("l;;lk;l");
+  alert("hello");
+});
 
 });
